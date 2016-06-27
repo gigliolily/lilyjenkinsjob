@@ -1,0 +1,6 @@
+*** Settings ***
+Library           Selenium2Library
+
+*** Keywords ***
+login
+    open browser    http://www.baidu.com/    ie
